@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="service">
+    <head>
+        <title>Servicio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--https://www.templatemonster.com/demo/59440.html-->
+
+        <link href="../bower_components/angular-material/angular-material.min.css" rel="stylesheet" />
+        <link href="../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+
+        <!-- inject:css -->
+        <!-- endinject -->
+
+        <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="../bower_components/angular/angular.min.js"></script>        
+        <script src="../bower_components/angular-animate/angular-animate.min.js"></script>
+        <script src="../bower_components/angular-aria/angular-aria.min.js"></script>
+        <script src="../bower_components/angular-messages/angular-messages.min.js"></script>
+        <script src="../bower_components/angular-resource/angular-resource.min.js"></script>
+        <script src="../bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+        <script src="../bower_components/angular-material/angular-material.min.js"></script>
+        <script src="../bower_components/angular-translate/angular-translate.min.js"></script>
+        <script src="../bower_components/angular-translate-loader-partial/angular-translate-loader-partial.min.js"></script>
+        <script src="../bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+        <script src="../bower_components/angular-local-storage/dist/angular-local-storage.min.js"></script>
+
+        <!-- inject:js -->
+        <!-- endinject -->
+
+    </head>
+    <body ng-controller="indexController as global">
+        <div id="main" ui-view="layout" layout="column">
+        </div>
+    </body>
+</html>

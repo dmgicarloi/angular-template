@@ -1,0 +1,29 @@
+#escogenos(layout="column" flex="100")
+    div(layout="column" layout-align="center center")
+        h1.title Why People Choose Us
+        hr.line2
+    div(layout="row" layout-xs="column" layout-align="start center"  layout-wrap)
+        -for (var x = 1; x < 5; x++)
+            div(layout="row" flex="25" flex-sm="50" flex-xs="100" layout-align="center center")
+                div(layout="column" layout-align="center center")
+                    case x
+                        when 1
+                            i.icon-user.fa.fa-user-o
+                            p.customers 1587
+                            hr.line
+                            p.guaranteed Satisfied Customers
+                        when 2
+                            i.icon-tv.fa.fa-television
+                            p.customers 287
+                            hr.line
+                            p.guaranteed Successful Projects
+                        when 3
+                            i.icon-chart.fa.fa-line-chart
+                            p.customers 21%
+                            hr.line
+                            p.guaranteed Average Conversion
+                        when 4
+                            i.icon-check.fa.fa-check-square-o
+                            p.customers 100%
+                            hr.line
+                            p.guaranteed Guaranteed Results

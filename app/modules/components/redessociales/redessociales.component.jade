@@ -1,0 +1,16 @@
+#redessociales(layout="row")
+        -for (var x = 1; x < 7; x++)
+            .redessociales(layout-align="start start" md-colors="{background : 'default-primary-100'}")
+                case x
+                    when 1
+                        a.fa.fa-facebook(red-social-background="#3A5A9F" href="javascript:void(0)")
+                    when 2
+                        a.fa.fa-twitter(red-social-background="#45B0E3" href="javascript:void(0)")
+                    when 3
+                        a.fa.fa-pinterest(red-social-background="#BD2126" href="javascript:void(0)")
+                    when 4
+                        a.fa.fa-linkedin(red-social-background="#1783BC" href="javascript:void(0)")
+                    when 5
+                        a.fa.fa-google(red-social-background="#BD2126" href="javascript:void(0)")
+                    default
+                        a.fa.fa-instagram(red-social-background="#34638A" href="javascript:void(0)")

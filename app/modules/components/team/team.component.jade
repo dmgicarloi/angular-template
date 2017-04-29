@@ -1,0 +1,27 @@
+#team(layout="column" flex="100")
+    div(layout="column" layout-align="center center")
+        h1.title Our Team
+        hr.line2
+    div(layout="row" layout-xs="column" layout-wrap layout-align="center center")
+        -for (var x = 1; x < 4; x++)
+            div.elements(layout="row" flex="33" flex-sm="50" flex-xs="100")
+                div(layout="column" flex="95" layout-align="start center")
+                    case x
+                        when 1
+                            img(src="../../../assets/mt-0792_main_team-1.png")
+                            a.member(href="javascript:void(0)" hover="#43CA83 #EA6C56") James Johnson
+                            p.especiality Founder, SEO Expert
+                            hr.line
+                            p.text James Johnson is the founder and CEO of SeoAgent. He has been working in Marketing since 2001 and got “bit” by the “SEO & Social” bug in 2005.
+                        when 2
+                            img(src="../../../assets/mt-0792_main_team-2.png")
+                            a.member(href="javascript:void(0)" hover="#43CA83 #EA6C56") James Johnson
+                            p.especiality Founder, SEO Expert
+                            hr.line
+                            p.text Nicole is a prolific part of the SEO community worldwide and contributes regularly to publications on and offline as well as best practice guides and round tables.
+                        when 3
+                            img(src="../../../assets/mt-0792_main_team-3.png")
+                            a.member(href="javascript:void(0)" hover="#43CA83 #EA6C56") James Johnson
+                            p.especiality Founder, SEO Expert
+                            hr.line
+                            p.text Since graduating, Paul has worked for a marketing capability consultancy managing a variety of client projects including Aviva, Hewlett Packard, Honda.

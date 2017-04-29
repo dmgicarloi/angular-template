@@ -1,0 +1,9 @@
+#menu-content(layout="row" layout-xs="column")
+    div.menu-content-padding(layout="row" flex="20" layout-align="center center" flex-xs="100")
+        img(src="assets/mt-0792_main_logo.png")
+    div.menu-content-padding(layout="row" flex="60" layout-align="center center" flex-xs="100" hide-xs)
+        menu
+    div.menu-content-padding(layout="row" flex="60" layout-align="center center" flex-xs="100" hide-gt-xs show-xs)
+        a.menues.fa.fa-bars(href="javascript:void(0)" ng-click="vm.toggleLeft('left')")
+    div.menu-content-padding(layout="row" flex="20" layout-align="center center" flex-xs="100")
+        button.general-button(translate="main.menu.freesite") FREE SITE ANALYSIS

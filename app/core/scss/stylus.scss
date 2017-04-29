@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+:-ms-fullscreen, :root {
+    [class*=flex] {
+        flex-basis: auto;
+    }
+}
+md-sidenav, md-backdrop{
+    position: fixed;
+}
+*, button{
+    margin:0;
+    padding: 0;
+    font-family:'Montserrat', sans-serif;
+}
+.general-button{
+    box-sizing: border-box;
+    border: none;
+    border-radius: .4em;
+    font-size: .8em;
+    font-weight: bold;
+    transition: .3s;
+    transition-property: background, border-bottom;
+}

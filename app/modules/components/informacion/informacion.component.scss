@@ -1,0 +1,29 @@
+#informacion{
+    div .icons{
+        color:#43CA83;
+        font-size: 1.2em;
+        padding : .7em 0;
+    }
+    div > a{
+        text-decoration:none;
+        color:white;
+        margin: 0 .4em;
+        font-size: .85em;
+    }
+}
+
+@media (max-width: 960px) {
+    #informacion{
+        div > a{
+            font-size: .7em;
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    #informacion{
+        div > a{
+            font-size: .6em;
+        }
+    }
+}

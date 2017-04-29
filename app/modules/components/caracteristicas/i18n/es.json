@@ -1,0 +1,13 @@
+{
+    "components": {
+        "caracteristicas": {
+            "name": "Características",
+            "online": "Gestión de Reputacion en Línea",
+            "textonline": "La gestión de reputación se refiere a influir y controlar la reputación de un individuo o negocio.",
+            "optimizacion": "Optimización Tasa de Conversión",
+            "textoptimizacion": "Es un sistema para aumentar el porcentaje de visitantes a un sitio web que puede convertirse en clientes, o más generalmente, tomar cualquier acción deseada en una página web.",
+            "realtime": "Análisis Sociales en Tiempo Real",
+            "textrealtime": "Entienda los patrones de participación en los medios de comunicación social en sus cuentas de Facebook, Twitter, LinkedIn, Pinterest y Google+ y agregue información sobre Google Analytics"
+        }
+    }
+}

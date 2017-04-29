@@ -1,0 +1,58 @@
+#menu-content{
+    padding-bottom : 1.5em;
+    .menu-content-padding{
+        padding : 2em 0 0 0;
+    }
+    .general-button{
+        padding: .7em .95em;
+        width:200px;
+        color:white;
+        background: #EA6C56;
+        border-bottom:5px solid #C75C49;
+    }
+    .general-button:hover{
+        background: #43CA83;
+        border-bottom:5px solid #39AC6F;
+    }
+}
+
+@media (max-width: 1130px) {
+    #menu-content{
+        .general-button{
+            font-size:.6em;
+            width: 150px;
+        }
+        div img{
+            width: 90%;
+        }
+    }
+}
+@media (max-width: 960px) {
+    #menu-content{
+        .general-button{
+            font-size:.5em;
+            width: 100px;
+        }
+        div img{
+            width: 80%;
+        }
+    }
+}
+@media (max-width: 600px) {
+    #menu-content{
+        .general-button{
+            font-size:.7em;
+            width: 180px;
+        }
+        div img{
+            width: auto;
+        }
+        .menues{
+            padding: .5em;
+            color:#fff;
+            text-decoration: none;
+            font-size: 1.5em;
+            background: #EA6C56;
+        }
+    }
+}

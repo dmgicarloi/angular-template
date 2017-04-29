@@ -1,0 +1,33 @@
+#redessociales{
+    padding:0 0 0 2em;
+    margin:0;
+    .redessociales{
+        padding:0;
+    }
+    .redessociales a{
+        box-sizing :border-box;
+        padding: .7em;
+        font-size: 1.2em;
+        color : #CFCFCF;
+        border:1px solid #577388;
+        text-decoration: none;
+        margin-right: .1em;
+    }
+}
+
+@media (max-width: 960px) {
+    #redessociales{
+        padding:.5em;
+        .redessociales a{
+            font-size: .9em;
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    #redessociales{
+        .redessociales a{
+            font-size: .8em;
+        }
+    }
+}

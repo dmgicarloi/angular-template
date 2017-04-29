@@ -1,0 +1,13 @@
+#informacion(layout="row" layout-xs="column")
+    -for (var x = 1; x < 4; x++)
+        div(layout="row" flex layout-align="center center")
+            case x
+                when 1
+                    span.icons.fa.fa-phone
+                    a(href="javascript:void(0)" hover="#43BB70 #fff") 1-800-1234-567
+                when 2
+                    span.icons.fa.fa-map-marker
+                    a(href="javascript:void(0)" hover="#43BB70 #fff") 2130 Fulton Street San Diego, CA 94117-1080 USA
+                default
+                    span.icons.fa.fa-envelope-o
+                    a(href="javascript:void(0)" hover="#43BB70 #fff") info@demolink.org

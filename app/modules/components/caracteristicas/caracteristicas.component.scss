@@ -1,0 +1,27 @@
+#caracteristicas{
+    > div{
+        padding: 0 1em;
+    }
+    .caracteristicas{
+        width: 80%;
+    }
+    .caracteristicas h3{
+        color:#EA6C56;
+        padding-top: 1em;
+        text-align: center;
+        font-weight: bold;
+    }
+    p{
+        color:#7F7F7F;
+        padding: 1em 0 2em 0;
+        text-align: center;
+        font-size: .95em;
+        line-height: 1.5em;
+    }
+}
+
+@media (max-width: 600px) {
+    #caracteristicas{
+        font-size: .9em;
+    }
+}
